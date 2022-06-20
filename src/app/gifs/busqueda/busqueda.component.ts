@@ -21,7 +21,6 @@ export class BusquedaComponent {
     if(valor.trim().length === 0){
       return;
     }
-
     this.gifsService.buscarGifs(valor);
 
     this.txtBuscar.nativeElement.value = '';
